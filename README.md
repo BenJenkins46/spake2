@@ -28,7 +28,6 @@ The required libraries must be installed locally first:
 
 After building the libraries, build SPAKE2:
 ```bash
-  cd spake2
   # If it exists
   rm -rf build
   mkdir build ; cd build
@@ -98,7 +97,6 @@ Notes:
 
 Google Tests are available for most of the helper functions used. Additionally, the test vectors in [[1]](#1) are exercised and validated using Google Test. Tests for Elliptic Curve arithmetic are also provided.
 ```bash
-  cd spake2
   # If it exists
   rm -rf build
   mkdir build ; cd build
@@ -111,7 +109,6 @@ Google Tests are available for most of the helper functions used. Additionally, 
 Additionally, LCOV coverage reports are available to be generated for the above tests if desired. LCOV is required to be installed to use.
 
 ```bash
-  cd spake2
   # If it exists
   rm -rf build
   mkdir build ; cd build
