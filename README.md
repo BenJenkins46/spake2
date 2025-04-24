@@ -1,6 +1,6 @@
 # SPAKE2
 
-This project inplements the SPAKE2 protocol, a Password Authenticated Key Exchange (PAKE), which allows two parties with a shared password to derive a strong shared key without disclosing the password. Specifically, it implements the protocol as described in RFC 9382[[1]](#1). Currently, this implementation uses ciphersuite PAKE2-P256-SHA256-HKDF-HMAC. It's written in pure C++11. 
+This project implements the SPAKE2 protocol, a Password Authenticated Key Exchange (PAKE), which allows two parties with a shared password to derive a strong shared key without disclosing the password. Specifically, it implements the protocol as described in RFC 9382[[1]](#1). Currently, this implementation uses ciphersuite PAKE2-P256-SHA256-HKDF-HMAC. It's written in pure C++11. 
 
 ## Requirements
 ```
@@ -96,7 +96,7 @@ Notes:
 
 ### Google Test
 
-Google Tests are available for most of the helper functions used. Additionally, the test vectors in [[1]](#1) are exercised and validated using Google Test. Tests for Elliptic Curve arthimetic are also provided.
+Google Tests are available for most of the helper functions used. Additionally, the test vectors in [[1]](#1) are exercised and validated using Google Test. Tests for Elliptic Curve arithmetic are also provided.
 ```bash
   cd spake2
   # If it exists
