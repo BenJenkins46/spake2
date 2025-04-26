@@ -7,13 +7,7 @@ This project implements the SPAKE2 protocol, a Password Authenticated Key Exchan
   - Linux (Tested with gcc 11.4.0 on Ubuntu 22.04).
 
   - The following prerequisites are required:
-  sudo apt install build-essential
-
-  # For installing libraries
-  sudo apt install curl
-
-  # Debian only
-  sudo apt install m4
+  sudo apt install build-essential curl m4
 
   - The following libraries are required:
   _______________________________________________________________________
