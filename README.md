@@ -6,6 +6,12 @@ This project implements the SPAKE2 protocol, a Password Authenticated Key Exchan
 ```
   - Linux (Tested with gcc 11.4.0 on Ubuntu 22.04).
 
+  - The following prerequisites are required:
+  sudo apt install build-essential
+
+  # Debian only
+  sudo apt install m4
+
   - The following libraries are required:
   _______________________________________________________________________
   | Library    | Version | Justification                                |
@@ -15,7 +21,7 @@ This project implements the SPAKE2 protocol, a Password Authenticated Key Exchan
   | libsodium  | v1.0.19 | Memory-Hard-Function for deriving w          |
   | lcov       | v1.16   | Optional.  Only used for code coverage tests |
   -----------------------------------------------------------------------
-  The dependencies should be installed via ./install_dependencies_local.sh
+  The above libraries should be installed via ./install_dependencies_local.sh
 ```
 ## How to Build
 
