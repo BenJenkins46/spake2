@@ -9,6 +9,9 @@ This project implements the SPAKE2 protocol, a Password Authenticated Key Exchan
   - The following prerequisites are required:
   sudo apt install build-essential
 
+  # For installing libraries
+  sudo apt install curl
+
   # Debian only
   sudo apt install m4
 
